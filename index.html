@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشروع أورا تاورز | Ora Towers</title>
+    <link rel="stylesheet" href="landing-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="overlay"></div>
+        <nav class="nav-bar">
+            <div class="logo">ORA <span>TOWERS</span></div>
+            <a href="#leadForm" class="btn-nav">احجز وحدتك الآن</a>
+        </nav>
+        <div class="hero-text">
+            <span class="badge">إطلاق مرحلة جديدة</span>
+            <h1>رفاهية السكن في قلب العاصمة</h1>
+            <p>شقق وفيلل فاخرة بإطلالة مباشرة على الحديقة المركزية بمقدم 5% وقسط على 8 سنوات</p>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="feature-card">
+            <i class="fa-solid fa-swimming-pool"></i>
+            <h3>حمامات سباحة حميمة</h3>
+            <p>مسابح خاصة ومغطاة لكل مجمع</p>
+        </div>
+        <div class="feature-card">
+            <i class="fa-solid fa-tree"></i>
+            <h3>80% المساحات الخضراء</h3>
+            <p>لاندسكيب وتصميم طبيعي ساحر</p>
+        </div>
+        <div class="feature-card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>أمان وحراسة 24/7</h3>
+            <p>بوابات ذكية وكاميرات مراقبة</p>
+        </div>
+    </section>
+
+    <section class="cta-section" id="leadForm">
+        <div class="form-container">
+            <h2>سجل اهتمامك للحصول على بروشور الأسعار</h2>
+            <p>سيتواصل معك أحد مستشارينا العقاريين خلال دقائق</p>
+            
+            <form id="expressForm">
+                <input type="text" id="leadName" placeholder="الاسم الكامل" required>
+                <input type="tel" id="leadPhone" placeholder="رقم الموبايل" required>
+                <select id="unitType">
+                    <option value="apartment">شقة سكنية</option>
+                    <option value="duplex">دوبلكس</option>
+                    <option value="penthouse">بنتهاوس</option>
+                </select>
+                <button type="submit" class="btn-submit">تحميل بروشور المشروع والأسعار</button>
+            </form>
+            <div id="successMsg" class="success-msg hidden">تم استلام طلبك بنجاح! سيتم الاتصال بك فوراً.</div>
+        </div>
+    </section>
+
+    <script src="landing-page.js"></script>
+</body>
+</html>
